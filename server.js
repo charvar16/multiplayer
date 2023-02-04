@@ -14,7 +14,7 @@ const openGames = []
 /* const clicks = db.collection('Clicks');
   const newClick = {
     ip : "despues de cambiar el package json"
-  } */
+  } */ 
 
 app.use(express.static(path.join(__dirname, "client", "build")))
 
